@@ -9,3 +9,4 @@ C:\Users\mtayel\source\repos\EFCoreDemo\ProductDomain\obj\Debug\net8.0\ProductDo
 C:\Users\mtayel\source\repos\EFCoreDemo\ProductDomain\obj\Debug\net8.0\refint\ProductDomain.dll
 C:\Users\mtayel\source\repos\EFCoreDemo\ProductDomain\obj\Debug\net8.0\ProductDomain.pdb
 C:\Users\mtayel\source\repos\EFCoreDemo\ProductDomain\obj\Debug\net8.0\ref\ProductDomain.dll
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductDomain\obj\Debug\net8.0\ProductDomain.sourcelink.json

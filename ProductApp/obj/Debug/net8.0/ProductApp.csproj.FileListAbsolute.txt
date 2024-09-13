@@ -65,3 +65,4 @@ C:\Users\mtayel\source\repos\EFCoreDemo\ProductApp\bin\Debug\net8.0\ProductData.
 C:\Users\mtayel\source\repos\EFCoreDemo\ProductApp\bin\Debug\net8.0\ProductDomain.pdb
 C:\Users\mtayel\source\repos\EFCoreDemo\ProductApp\obj\Debug\net8.0\ProductApp.csproj.AssemblyReference.cache
 C:\Users\mtayel\source\repos\EFCoreDemo\ProductApp\obj\Debug\net8.0\ProductApp.csproj.Up2Date
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductApp\obj\Debug\net8.0\ProductApp.sourcelink.json

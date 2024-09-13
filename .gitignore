@@ -1,7 +1,22 @@
-# Ignore Visual Studio files
+# Ignore Visual Studio temporary files
 .vs/
 *.suo
+*.user
+*.userosscache
+*.sln.docstates
+# Ignore build results
+bin/
+obj/
 
+# Ignore packages folder
+packages/
+
+# Ignore unnecessary folders or files for C# projects
+*.log
+*.cache
+*.pdb
+*.dll
+*.exe
 # Ignore other specific files or directories
 *.v2
 DesignTimeBuild/

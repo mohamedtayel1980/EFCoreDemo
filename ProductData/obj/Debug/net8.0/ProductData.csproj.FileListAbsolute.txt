@@ -15,3 +15,4 @@ C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\obj\Debug\net8.0\refint\Prod
 C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\obj\Debug\net8.0\ProductData.pdb
 C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\obj\Debug\net8.0\ProductData.genruntimeconfig.cache
 C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\obj\Debug\net8.0\ref\ProductData.dll
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\obj\Debug\net8.0\ProductData.sourcelink.json

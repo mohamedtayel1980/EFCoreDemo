@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProductData;
 
@@ -10,9 +11,11 @@ using ProductData;
 namespace ProductData.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240913175114_ConfigEntities")]
+    partial class ConfigEntities
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -55,8 +58,7 @@ namespace ProductData.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductId")
-                        .IsUnique();
+                    b.HasIndex("ProductId");
 
                     b.ToTable("Inventories");
                 });
@@ -87,51 +89,11 @@ namespace ProductData.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("ProductDomain.ProductSupplier", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("SupplierId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.HasIndex("SupplierId");
-
-                    b.ToTable("ProductSuppliers", (string)null);
-                });
-
-            modelBuilder.Entity("ProductDomain.Supplier", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Suppliers");
-                });
-
             modelBuilder.Entity("ProductDomain.Inventory", b =>
                 {
                     b.HasOne("ProductDomain.Product", "Product")
-                        .WithOne("Inventory")
-                        .HasForeignKey("ProductDomain.Inventory", "ProductId")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -149,41 +111,9 @@ namespace ProductData.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("ProductDomain.ProductSupplier", b =>
-                {
-                    b.HasOne("ProductDomain.Product", "Product")
-                        .WithMany("ProductSuppliers")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("ProductDomain.Supplier", "Supplier")
-                        .WithMany("ProductSuppliers")
-                        .HasForeignKey("SupplierId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
-
-                    b.Navigation("Supplier");
-                });
-
             modelBuilder.Entity("ProductDomain.Category", b =>
                 {
                     b.Navigation("Products");
-                });
-
-            modelBuilder.Entity("ProductDomain.Product", b =>
-                {
-                    b.Navigation("Inventory")
-                        .IsRequired();
-
-                    b.Navigation("ProductSuppliers");
-                });
-
-            modelBuilder.Entity("ProductDomain.Supplier", b =>
-                {
-                    b.Navigation("ProductSuppliers");
                 });
 #pragma warning restore 612, 618
         }
