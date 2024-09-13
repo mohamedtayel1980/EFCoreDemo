@@ -1,0 +1,17 @@
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\bin\Debug\net8.0\ProductData.deps.json
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\bin\Debug\net8.0\ProductData.runtimeconfig.json
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\bin\Debug\net8.0\ProductData.dll
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\bin\Debug\net8.0\ProductData.pdb
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\bin\Debug\net8.0\ProductDomain.dll
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\bin\Debug\net8.0\ProductDomain.pdb
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\obj\Debug\net8.0\ProductData.csproj.AssemblyReference.cache
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\obj\Debug\net8.0\ProductData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\obj\Debug\net8.0\ProductData.AssemblyInfoInputs.cache
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\obj\Debug\net8.0\ProductData.AssemblyInfo.cs
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\obj\Debug\net8.0\ProductData.csproj.CoreCompileInputs.cache
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\obj\Debug\net8.0\ProductD.1C60C449.Up2Date
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\obj\Debug\net8.0\ProductData.dll
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\obj\Debug\net8.0\refint\ProductData.dll
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\obj\Debug\net8.0\ProductData.pdb
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\obj\Debug\net8.0\ProductData.genruntimeconfig.cache
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductData\obj\Debug\net8.0\ref\ProductData.dll

@@ -1,0 +1,11 @@
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductDomain\bin\Debug\net8.0\ProductDomain.deps.json
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductDomain\bin\Debug\net8.0\ProductDomain.dll
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductDomain\bin\Debug\net8.0\ProductDomain.pdb
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductDomain\obj\Debug\net8.0\ProductDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductDomain\obj\Debug\net8.0\ProductDomain.AssemblyInfoInputs.cache
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductDomain\obj\Debug\net8.0\ProductDomain.AssemblyInfo.cs
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductDomain\obj\Debug\net8.0\ProductDomain.csproj.CoreCompileInputs.cache
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductDomain\obj\Debug\net8.0\ProductDomain.dll
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductDomain\obj\Debug\net8.0\refint\ProductDomain.dll
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductDomain\obj\Debug\net8.0\ProductDomain.pdb
+C:\Users\mtayel\source\repos\EFCoreDemo\ProductDomain\obj\Debug\net8.0\ref\ProductDomain.dll
