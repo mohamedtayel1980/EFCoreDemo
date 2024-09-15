@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{25FBA717-6A33-4475-9807-57D5DE96CF7E}|ProductApp\\ProductApp.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FBA717-6A33-4475-9807-57D5DE96CF7E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdata\\migrations\\20240915190747_seedproductandinventoryanottherdata2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|solutionrelative:productdata\\migrations\\20240915190747_seedproductandinventoryanottherdata2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdata\\migrations\\20240915184502_seedproductandinventoryanottherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|solutionrelative:productdata\\migrations\\20240915184502_seedproductandinventoryanottherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdata\\migrations\\20240915190615_seedproductandinventoryanottherdata1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|solutionrelative:productdata\\migrations\\20240915190615_seedproductandinventoryanottherdata1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdata\\entityconfiguration\\inventoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|solutionrelative:productdata\\entityconfiguration\\inventoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdata\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|solutionrelative:productdata\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27A4686F-ED8C-4F45-957E-2DC9E9A7B4DC}|ProductDomain\\ProductDomain.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdomain\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27A4686F-ED8C-4F45-957E-2DC9E9A7B4DC}|ProductDomain\\ProductDomain.csproj|solutionrelative:productdomain\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdata\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|solutionrelative:productdata\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27A4686F-ED8C-4F45-957E-2DC9E9A7B4DC}|ProductDomain\\ProductDomain.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdomain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27A4686F-ED8C-4F45-957E-2DC9E9A7B4DC}|ProductDomain\\ProductDomain.csproj|solutionrelative:productdomain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27A4686F-ED8C-4F45-957E-2DC9E9A7B4DC}|ProductDomain\\ProductDomain.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdomain\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27A4686F-ED8C-4F45-957E-2DC9E9A7B4DC}|ProductDomain\\ProductDomain.csproj|solutionrelative:productdomain\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdata\\entityconfiguration\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|solutionrelative:productdata\\entityconfiguration\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +50,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductDomain\\Inventory.cs",
-              "RelativeDocumentMoniker": "ProductDomain\\Inventory.cs",
-              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductDomain\\Inventory.cs",
-              "RelativeToolTip": "ProductDomain\\Inventory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20240915190747_SeedProductAndInventoryAnottherData2.cs",
+              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Migrations\\20240915190747_SeedProductAndInventoryAnottherData2.cs",
+              "RelativeDocumentMoniker": "ProductData\\Migrations\\20240915190747_SeedProductAndInventoryAnottherData2.cs",
+              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Migrations\\20240915190747_SeedProductAndInventoryAnottherData2.cs",
+              "RelativeToolTip": "ProductData\\Migrations\\20240915190747_SeedProductAndInventoryAnottherData2.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T19:55:41.618Z",
+              "WhenOpened": "2024-09-15T19:07:47.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240915190615_SeedProductAndInventoryAnottherData1.cs",
+              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Migrations\\20240915190615_SeedProductAndInventoryAnottherData1.cs",
+              "RelativeDocumentMoniker": "ProductData\\Migrations\\20240915190615_SeedProductAndInventoryAnottherData1.cs",
+              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Migrations\\20240915190615_SeedProductAndInventoryAnottherData1.cs",
+              "RelativeToolTip": "ProductData\\Migrations\\20240915190615_SeedProductAndInventoryAnottherData1.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T19:06:15.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ProductData\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\AppDbContext.cs",
+              "RelativeToolTip": "ProductData\\AppDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA3wB8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T19:05:13.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductDomain\\Product.cs",
-              "RelativeDocumentMoniker": "ProductDomain\\Product.cs",
-              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductDomain\\Product.cs*",
-              "RelativeToolTip": "ProductDomain\\Product.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxMAAAAHAAAAAAAAAA==",
+              "Title": "20240915184502_SeedProductAndInventoryAnottherData.cs",
+              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Migrations\\20240915184502_SeedProductAndInventoryAnottherData.cs",
+              "RelativeDocumentMoniker": "ProductData\\Migrations\\20240915184502_SeedProductAndInventoryAnottherData.cs",
+              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Migrations\\20240915184502_SeedProductAndInventoryAnottherData.cs",
+              "RelativeToolTip": "ProductData\\Migrations\\20240915184502_SeedProductAndInventoryAnottherData.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAowC8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T19:53:42.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Supplier.cs",
-              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductDomain\\Supplier.cs",
-              "RelativeDocumentMoniker": "ProductDomain\\Supplier.cs",
-              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductDomain\\Supplier.cs*",
-              "RelativeToolTip": "ProductDomain\\Supplier.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T19:53:29.594Z",
+              "WhenOpened": "2024-09-15T19:05:01.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ProductData\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\AppDbContext.cs*",
-              "RelativeToolTip": "ProductData\\AppDbContext.cs*",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwC0AAAAiAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductApp\\Program.cs",
+              "RelativeDocumentMoniker": "ProductApp\\Program.cs",
+              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductApp\\Program.cs",
+              "RelativeToolTip": "ProductApp\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA6wBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T19:52:35.138Z",
+              "WhenOpened": "2024-09-15T19:02:20.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InventoryService.cs",
+              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Services\\InventoryService.cs",
+              "RelativeDocumentMoniker": "ProductData\\Services\\InventoryService.cs",
+              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Services\\InventoryService.cs",
+              "RelativeToolTip": "ProductData\\Services\\InventoryService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIBEwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:56:27.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\EntityConfiguration\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "ProductData\\EntityConfiguration\\ProductConfiguration.cs",
+              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\EntityConfiguration\\ProductConfiguration.cs",
+              "RelativeToolTip": "ProductData\\EntityConfiguration\\ProductConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:49:04.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InventoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\EntityConfiguration\\InventoryConfiguration.cs",
+              "RelativeDocumentMoniker": "ProductData\\EntityConfiguration\\InventoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\EntityConfiguration\\InventoryConfiguration.cs",
+              "RelativeToolTip": "ProductData\\EntityConfiguration\\InventoryConfiguration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:48:53.563Z",
               "EditorCaption": ""
             }
           ]

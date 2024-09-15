@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProductData
+namespace ProductData.Services
 {
     public class ProductService
     {

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ProductData.EntityConfiguration;
 using ProductDomain;
 
 namespace ProductData
@@ -25,6 +26,10 @@ namespace ProductData
 
             // Apply ProductSupplier configuration using partial class method
             ConfigureProductSupplier(modelBuilder);
+
+
+            // Apply Inventory configuration 
+            modelBuilder.ApplyConfiguration(new InventoryConfiguration());
         }
     }
 }

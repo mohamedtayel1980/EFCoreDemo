@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProductData;
 
@@ -10,9 +11,11 @@ using ProductData;
 namespace ProductData.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240915190615_SeedProductAndInventoryAnottherData1")]
+    partial class SeedProductAndInventoryAnottherData1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -63,19 +66,19 @@ namespace ProductData.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 4,
+                            Id = 1,
                             ProductId = 3,
                             Quantity = 50
                         },
                         new
                         {
-                            Id = 5,
+                            Id = 2,
                             ProductId = 4,
                             Quantity = 100
                         },
                         new
                         {
-                            Id = 6,
+                            Id = 3,
                             ProductId = 5,
                             Quantity = 100
                         });
