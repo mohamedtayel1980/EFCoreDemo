@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProductData;
 
@@ -11,9 +12,11 @@ using ProductData;
 namespace ProductData.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240917101749_AddOrderAndOrderDetailWithCompositeKey")]
+    partial class AddOrderAndOrderDetailWithCompositeKey
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -87,13 +90,13 @@ namespace ProductData.Migrations
                         new
                         {
                             OrderId = 1,
-                            LastUpdated = new DateTime(2024, 9, 17, 13, 22, 30, 18, DateTimeKind.Local).AddTicks(9738),
+                            LastUpdated = new DateTime(2024, 9, 17, 13, 17, 48, 373, DateTimeKind.Local).AddTicks(8891),
                             OrderDate = new DateOnly(2024, 10, 1)
                         },
                         new
                         {
                             OrderId = 2,
-                            LastUpdated = new DateTime(2024, 9, 17, 13, 22, 30, 18, DateTimeKind.Local).AddTicks(9784),
+                            LastUpdated = new DateTime(2024, 9, 17, 13, 17, 48, 373, DateTimeKind.Local).AddTicks(8941),
                             OrderDate = new DateOnly(2024, 10, 2)
                         });
                 });

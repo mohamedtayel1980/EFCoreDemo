@@ -10,7 +10,8 @@ namespace ProductData
         public DbSet<Category> Categories { get; set; }
         public DbSet<Inventory> Inventories { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
-
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=MTAYEL-LT\MSSQLSERVER01;Database=ProductDb;Trusted_Connection=True;TrustServerCertificate=True;");
@@ -30,6 +31,22 @@ namespace ProductData
 
             // Apply Inventory configuration 
             modelBuilder.ApplyConfiguration(new InventoryConfiguration());
+
+
+            modelBuilder.ApplyConfiguration(new OrderConfiguration());
+            modelBuilder.ApplyConfiguration(new OrderDetailConfiguration());
+        }
+        public override int SaveChanges()
+        {
+            foreach (var entry in ChangeTracker.Entries<Order>())
+            {
+                if (entry.State == EntityState.Added || entry.State == EntityState.Modified)
+                {
+                    entry.Property("LastUpdated").CurrentValue = DateTime.Now;
+                }
+            }
+
+            return base.SaveChanges();
         }
     }
 }

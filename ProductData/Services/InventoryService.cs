@@ -58,5 +58,11 @@ namespace ProductData.Services
 
             return null;
         }
+        public int GetTotalStockByProduct(int productId)
+        {
+            return _context.Inventories
+                           .Where(i => i.ProductId == productId)
+                           .Sum(i => i.Quantity);
+        }
     }
 }

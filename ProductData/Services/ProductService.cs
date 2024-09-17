@@ -52,5 +52,13 @@ namespace ProductData.Services
                 _context.SaveChanges();
             }
         }
+        public List<Product> GetProductsByCategory(string categoryName)
+        {
+            return _context.Products
+                           .Where(p => p.Category.Name == categoryName)
+                           .Include(p => p.Inventory)
+                           .ToList();
+        }
+        
     }
 }
