@@ -31,6 +31,8 @@ namespace ProductData.Services
                 try
                 {
                     inventory.Quantity = quantity;  // Backing field logic will validate this
+                      // Update the LastUpdated shadow property
+                    _context.Entry(inventory).Property("LastUpdated").CurrentValue = DateTime.Now;
                     _context.SaveChanges();
                 }
                 catch (ArgumentException ex)
@@ -43,6 +45,18 @@ namespace ProductData.Services
             {
                 throw new InvalidOperationException("Inventory not found.");
             }
+        }
+
+        public DateTime? GetLastUpdated(int productId)
+        {
+            var inventory = _context.Inventories.FirstOrDefault(i => i.ProductId == productId);
+            if (inventory != null)
+            {
+                // Retrieve the LastUpdated shadow property
+                return _context.Entry(inventory).Property("LastUpdated").CurrentValue as DateTime?;
+            }
+
+            return null;
         }
     }
 }

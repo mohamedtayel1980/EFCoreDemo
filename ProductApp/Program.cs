@@ -43,7 +43,8 @@ class Program
             // Update quantity with a valid value (greater than 0)
             inventoryService.UpdateQuantity(3, 150);
             Console.WriteLine("Quantity updated to 150.");
-
+            var lastUpdated = inventoryService.GetLastUpdated(3);
+            Console.WriteLine($"Product 1 Last Updated: {lastUpdated}");
             // Try updating with an invalid quantity (less than 0)
             try
             {

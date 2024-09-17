@@ -4,56 +4,46 @@
 *.user
 *.userosscache
 *.sln.docstates
-# Ignore build results
+
+# Ignore build results (bin and obj folders)
 bin/
 obj/
-
-# Ignore packages folder
-packages/
-
-# Ignore unnecessary folders or files for C# projects
-*.log
-*.cache
-*.pdb
 *.dll
 *.exe
-# Ignore other specific files or directories
-*.v2
+*.pdb
+
+# Ignore package manager directories
+packages/
+
+# Ignore generated cache files
+*.cache
+.dbcache.v2/
+.futdcache.v2/
+
+# Ignore specific folders related to project setup
 DesignTimeBuild/
 FileContentIndex/
 v17/
 DocumentLayout.json
 
-# Ignore Debug build artifacts
-GloboTicket.TicketManagement.Application/obj/
-
-# Ignore generated cache files
-*.cache
-# Ignore appsettings files
+# Ignore appsettings files (optional if they contain sensitive data)
 appsettings.json
 appsettings.Development.json
 appsettings.Production.json
 
-# Ignore build output directories
-bin/
-obj/
+# Ignore Debug build artifacts for specific projects
+GloboTicket.TicketManagement.Application/obj/
 
-# Ignore user-specific files
+# Ignore user-specific files (IDE-related)
 .vscode/
 *.user
 *.suo
 
-# Ignore temporary files
+# Ignore log and temporary files
 *.tmp
 *.log
 
-# Ignore compiled DLLs and executables
-*.dll
-*.exe
-
-# Ignore other common build artifacts
-*.pdb
-*.cache
-# Ignore other cache and temporary files
-.dbcache.v2/
-.futdcache.v2/
+# Ignore additional temporary files
+*.bak
+*.backup
+*.tmp

@@ -22,6 +22,7 @@ namespace ProductData.Services
             var category = new Category { Name = categoryName };
             var product = new Product { Name = productName, Price = price, Category = category };
             _context.Products.Add(product);
+            _context.Entry(product).Property("LastUpdated").CurrentValue = DateTime.Now;
             _context.SaveChanges();
         }
 
@@ -36,6 +37,8 @@ namespace ProductData.Services
             if (product != null)
             {
                 product.Price = newPrice;
+                _context.Entry(product).Property("LastUpdated").CurrentValue = DateTime.Now;
+
                 _context.SaveChanges();
             }
         }

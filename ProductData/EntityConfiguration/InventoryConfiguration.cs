@@ -15,14 +15,15 @@ namespace ProductData.EntityConfiguration
         {
             builder.Property(i => i.Quantity).IsRequired();
 
-          
+            // Add shadow property for tracking last updated time
+            builder.Property<DateTime>("LastUpdated");
 
-            // Seed data for Inventory
-            builder.HasData(
-                new Inventory { Id = 4, ProductId = 3, Quantity = 50 },
-                new Inventory { Id = 5, ProductId = 4, Quantity = 100 },
-                new Inventory { Id = 6, ProductId = 5, Quantity = 100 }
-            );
+            ////// Seed data for Inventory
+            ////builder.HasData(
+            ////    new Inventory { Id = 4, ProductId = 3, Quantity = 50 },
+            ////    new Inventory { Id = 5, ProductId = 4, Quantity = 100 },
+            ////    new Inventory { Id = 6, ProductId = 5, Quantity = 100 }
+            //);
         }
     }
 }
