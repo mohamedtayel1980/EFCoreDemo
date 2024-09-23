@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27A4686F-ED8C-4F45-957E-2DC9E9A7B4DC}|ProductDomain\\ProductDomain.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdomain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27A4686F-ED8C-4F45-957E-2DC9E9A7B4DC}|ProductDomain\\ProductDomain.csproj|solutionrelative:productdomain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25FBA717-6A33-4475-9807-57D5DE96CF7E}|ProductApp\\ProductApp.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FBA717-6A33-4475-9807-57D5DE96CF7E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdata\\migrations\\20240917101749_addorderandorderdetailwithcompositekey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|solutionrelative:productdata\\migrations\\20240917101749_addorderandorderdetailwithcompositekey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdata\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|solutionrelative:productdata\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdata\\entityconfiguration\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|solutionrelative:productdata\\entityconfiguration\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdata\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|solutionrelative:productdata\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdata\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|solutionrelative:productdata\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|c:\\users\\mtayel\\source\\repos\\efcoredemo\\productdata\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DB3476-C79B-47E3-B68E-ECAC435F7BF5}|ProductData\\ProductData.csproj|solutionrelative:productdata\\services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,45 +38,71 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductDomain\\Order.cs",
-              "RelativeDocumentMoniker": "ProductDomain\\Order.cs",
-              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductDomain\\Order.cs",
-              "RelativeToolTip": "ProductDomain\\Order.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBsAAABCAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductApp\\Program.cs",
+              "RelativeDocumentMoniker": "ProductApp\\Program.cs",
+              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductApp\\Program.cs*",
+              "RelativeToolTip": "ProductApp\\Program.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T10:20:51.027Z",
+              "WhenOpened": "2024-09-23T08:48:35.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240917101749_AddOrderAndOrderDetailWithCompositeKey.cs",
-              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Migrations\\20240917101749_AddOrderAndOrderDetailWithCompositeKey.cs",
-              "RelativeDocumentMoniker": "ProductData\\Migrations\\20240917101749_AddOrderAndOrderDetailWithCompositeKey.cs",
-              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Migrations\\20240917101749_AddOrderAndOrderDetailWithCompositeKey.cs",
-              "RelativeToolTip": "ProductData\\Migrations\\20240917101749_AddOrderAndOrderDetailWithCompositeKey.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAA7wA0AAABFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "ProductData\\Services\\ReportService.cs",
+              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Services\\ReportService.cs",
+              "RelativeToolTip": "ProductData\\Services\\ReportService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA7wBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T10:18:33.33Z",
+              "WhenOpened": "2024-09-23T08:43:41.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InventoryService.cs",
+              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Services\\InventoryService.cs",
+              "RelativeDocumentMoniker": "ProductData\\Services\\InventoryService.cs",
+              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Services\\InventoryService.cs",
+              "RelativeToolTip": "ProductData\\Services\\InventoryService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAE0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:41:09.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OrderConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\EntityConfiguration\\OrderConfiguration.cs",
-              "RelativeDocumentMoniker": "ProductData\\EntityConfiguration\\OrderConfiguration.cs",
-              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\EntityConfiguration\\OrderConfiguration.cs",
-              "RelativeToolTip": "ProductData\\EntityConfiguration\\OrderConfiguration.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "ProductData\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Services\\OrderService.cs",
+              "RelativeToolTip": "ProductData\\Services\\OrderService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswDoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T10:18:18.547Z",
+              "WhenOpened": "2024-09-23T08:37:44.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "ProductData\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\mtayel\\source\\repos\\EFCoreDemo\\ProductData\\Services\\ProductService.cs",
+              "RelativeToolTip": "ProductData\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:37:19.656Z",
               "EditorCaption": ""
             }
           ]
@@ -107,15 +141,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -124,6 +150,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

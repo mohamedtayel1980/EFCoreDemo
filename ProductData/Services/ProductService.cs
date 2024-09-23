@@ -59,6 +59,16 @@ namespace ProductData.Services
                            .Include(p => p.Inventory)
                            .ToList();
         }
-        
+        // Asynchronously retrieve all products
+        public async Task<List<Product>> GetAllProductsAsync()
+        {
+            return await _context.Products.ToListAsync(); // Non-blocking query
+        }
+
+        // Asynchronously retrieve a product by ID
+        public async Task<Product> GetProductByIdAsync(int productId)
+        {
+            return await _context.Products.FirstOrDefaultAsync(p => p.Id == productId);
+        }
     }
 }

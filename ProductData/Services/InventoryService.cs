@@ -1,4 +1,5 @@
-﻿using ProductDomain;
+﻿using Microsoft.EntityFrameworkCore;
+using ProductDomain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -63,6 +64,17 @@ namespace ProductData.Services
             return _context.Inventories
                            .Where(i => i.ProductId == productId)
                            .Sum(i => i.Quantity);
+        }
+        // Asynchronously get total stock for a product
+        public async Task<int> GetTotalStockByProductAsync(int productId)
+        {
+            return await _context.Inventories
+                                 .Where(i => i.ProductId == productId)
+                                 .SumAsync(i => i.Quantity);
+        }
+        public async Task<List<Inventory>> GetAllInventoriesAsync()
+        {
+            return await _context.Inventories.ToListAsync();
         }
     }
 }

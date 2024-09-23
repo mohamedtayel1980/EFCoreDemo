@@ -1,15 +1,18 @@
-﻿using ProductData;
+﻿using Microsoft.EntityFrameworkCore;
+using ProductData;
 using ProductData.Services;
 using ProductDomain;
 using System;
+using System.Diagnostics;
 
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
         //CallProdcut();
         //CallInventory();
-        callOrder();
+        //callOrder();
+        await TestQueryPerformanceAsync();
     }
 
     private static void CallProdcut()
@@ -92,5 +95,27 @@ class Program
                 Console.WriteLine($"Order {order.OrderId}, Date: {order.OrderDate}");
             }
         }
+    }
+
+    public static async Task TestQueryPerformanceAsync()
+    {
+        using (var _context = new AppDbContext())
+        {
+            var productService = new ProductService(_context);
+            var stopwatch = new Stopwatch();
+
+            // Measure synchronous query time
+            stopwatch.Start();
+            var productsSync = productService.GetAllProducts(); // Synchronous
+            stopwatch.Stop();
+            Console.WriteLine($"Synchronous query time: {stopwatch.ElapsedMilliseconds} ms");
+
+            // Measure asynchronous query time
+            stopwatch.Start();
+            var productsAsync = await productService.GetAllProductsAsync();  // Asynchronous
+            stopwatch.Stop();
+            Console.WriteLine($"Asynchronous query time: {stopwatch.ElapsedMilliseconds} ms");
+        }
+            
     }
 }
